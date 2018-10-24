@@ -1,0 +1,32 @@
+.FormFilm {
+ width: 600px;
+ margin: 0 auto;
+ text-align: left;
+}
+
+.FormFilm h1 {
+ text-align: center;
+}
+
+.FormFilm .form-data {
+ display: flex;
+ justify-content: center ;
+ margin: 13px;
+}
+
+.FormFilm .form-data label {
+ display: block;
+ width: 75px;
+ margin-right: 8px;
+ text-align: left;
+}
+
+.FormFilm .form-data input:not([type="submit"]) {
+ flex-grow: 1;
+}
+
+.FormFilm .form-data textarea {
+    height : 100px;
+    flex-grow: 1;
+    font-size : 12px;
+}
